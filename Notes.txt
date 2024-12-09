@@ -1,0 +1,34 @@
+# Node.js Project Notes
+
+## 1. Setup and Installation
+
+### Clone the repository:
+If you haven't already cloned the project, run the following command:
+
+git clone githublink
+
+### Install dependencies:
+Run this command to install all required packages from `package.json`:
+
+npm install
+
+## 2. Running the Application
+
+### Start the Node.js app:
+Run the following command to start the application:
+
+npm run dev
+
+Alternatively, if you are using a tool like `nodemon` for live reloading during development:
+
+node index.js
+
+## 6. Configuration
+
+### Set environment variables:
+If your project requires environment variables (e.g., for a production environment), you can set them directly in the terminal:
+
+DB_URL= mongodb://127.0.0.1:27017/
+DB_NAME=usermanagement
+API_VERSION =v1,
+PORT =  3000
