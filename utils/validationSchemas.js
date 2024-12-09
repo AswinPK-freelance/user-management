@@ -14,7 +14,7 @@ const userValidationRules = () => {
       .normalizeEmail(),
 
     body('age')
-      .isInt({ min: 1 })
+      .isInt({ min: 0 })
       .withMessage('Age must be a positive number')
   ];
 };
